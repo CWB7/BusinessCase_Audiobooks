@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "ac79dbef",
+   "id": "c7ab1be9",
    "metadata": {},
    "source": [
     "# Business Case: Audiobook App Buyer Behaviour\n",
@@ -30,7 +30,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d3d5b166",
+   "id": "3663a2b6",
    "metadata": {},
    "source": [
     "1) Preprocess the data  \n",
@@ -44,7 +44,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "206f8377",
+   "id": "a79abfc7",
    "metadata": {},
    "source": [
     "### Extract data (inputs and targets)"
@@ -53,7 +53,7 @@
   {
    "cell_type": "code",
    "execution_count": 38,
-   "id": "0fefff54",
+   "id": "ec04ce2a",
    "metadata": {},
    "outputs": [
     {
@@ -76,7 +76,7 @@
   {
    "cell_type": "code",
    "execution_count": 39,
-   "id": "5cf7ef0e",
+   "id": "187f8df4",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -97,7 +97,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f5e407d3",
+   "id": "828e43e3",
    "metadata": {},
    "source": [
     "### Balance the data sheet\n",
@@ -107,7 +107,7 @@
   {
    "cell_type": "code",
    "execution_count": 40,
-   "id": "31d21c2d",
+   "id": "99a91980",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -136,7 +136,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0b60b887",
+   "id": "33eb101f",
    "metadata": {},
    "source": [
     "### Standardize the inputs"
@@ -145,7 +145,7 @@
   {
    "cell_type": "code",
    "execution_count": 41,
-   "id": "52866bf5",
+   "id": "ddcfe765",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -155,7 +155,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "22498dcc",
+   "id": "095c3798",
    "metadata": {},
    "source": [
     "### Shuffle the data\n",
@@ -166,7 +166,7 @@
   {
    "cell_type": "code",
    "execution_count": 42,
-   "id": "7756c1b1",
+   "id": "e7c5fef6",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -181,7 +181,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a1d509f4",
+   "id": "1f51c7aa",
    "metadata": {},
    "source": [
     "### Split the dataset (training, test, validation)\n",
@@ -192,7 +192,7 @@
   {
    "cell_type": "code",
    "execution_count": 43,
-   "id": "25a6f3e7",
+   "id": "4b2ace70",
    "metadata": {},
    "outputs": [
     {
@@ -235,7 +235,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b92c189e",
+   "id": "5b10b706",
    "metadata": {},
    "source": [
     "### Save output files"
@@ -244,7 +244,7 @@
   {
    "cell_type": "code",
    "execution_count": 44,
-   "id": "4fd26f8c",
+   "id": "5ec5630f",
    "metadata": {},
    "outputs": [],
    "source": [
